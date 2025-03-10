@@ -185,7 +185,7 @@ const Dashboard = () => {
             </h2>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {isActivated && (
+              {isActivated && 
                 [1, 2, 3, 4].map((i) => (
                   <Card key={i} className="border overflow-hidden cursor-pointer hover:shadow-md" onClick={() => navigate('/history')}>
                     <div className="aspect-video bg-black relative">
