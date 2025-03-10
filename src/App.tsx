@@ -1,14 +1,13 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ThemeProvider } from "next-themes";
-import Dashboard from "./pages/Dashboard.tsx";
-import NotFound from "./pages/NotFound.tsx";
-
-//import Alerts from "./pages/Alerts";
-//import Live from "./pages/Live";
-//import History from "./pages/History";
-//import Settings from "./pages/Settings";
-//import CameraSetup from "./pages/CameraSetup";
-//import Analytics from "./pages/Analytics";
+import Dashboard from "./pages/Dashboard";
+import NotFound from "./pages/NotFound";
+import Alerts from "./pages/Alerts";
+import Live from "./pages/Live";
+import History from "./pages/History";
+import Settings from "./pages/Settings";
+import CameraSetup from "./pages/CameraSetup";
+import Analytics from "./pages/Analytics";
 
 const App = () => (
   <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
